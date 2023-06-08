@@ -2,10 +2,10 @@
 This lab report will provide a chronological step-by-step procedure on how to fork and clone a repository and utilize VIM to help edit/modify/save the file. 
 
 **Objectives:**
-- [] Clone your fork of the repository from your Github account  
-- [] Open and edit the file directly in the terminal  
-- [] Debug the code to have tests run successfully 
-- [] Commit and push the resulting change to your GitHub account 
+- [ ] Clone your fork of the repository from your Github account  
+- [ ] Open and edit the file directly in the terminal  
+- [ ] Debug the code to have tests run successfully 
+- [ ] Commit and push the resulting change to your GitHub account 
 
 
 ## Step 1: SetUp: Delete Existing Repository 
