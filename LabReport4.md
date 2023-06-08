@@ -78,3 +78,4 @@ Great job following the instructions! We were able to:
 - [x] Open and edit the file directly in the terminal  
 - [x] Debug the code to have tests run successfully 
 - [x] Commit and push the resulting change to your GitHub account 
+Now you can try editing other programming assignments that you have forked from GitHub wth these steps that you have learned! 
