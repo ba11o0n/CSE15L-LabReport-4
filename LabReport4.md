@@ -79,7 +79,7 @@ After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
      - General use (classic): 
      <br /> <img src="classic.png" width="600" height="230"/>
    * 4) Fill out the required information to create your token and scroll down at the bottom of the page and click on `generate new token` 
-   * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="440"/>
+   * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="290"/>
    * 6) Copy the special token and go back into the terminal to paste it into the prompted password for git push origin and you should be able to see the successful git push from the picture in the previous instruction of step 9.  
 
 ### Conclusion: 
