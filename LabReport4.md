@@ -37,17 +37,17 @@ The result in the terminal should be similar to the picture shown below, indicat
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
 ## Step 7: Fix the Code So Test Can Run 
-1. In the terminal, use the command <>???? and press `enter` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="680" height="340"/> 
+1. In the terminal, use the command <>???? and press `enter` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="460"/> 
 2. Follow the instructions to modify the code. 
 #### First Step: Move Your Cursor Until It Reaches the Correct Line 
-We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="680" height="340"/> <br />
+We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="400" height="100"/> <br />
 You can either 
 * Option 1: Press key `J` (helps you move the cursor downwards) until you reach the code line OR 
 * Option 2: Use the command `/<toFind>` where toFind is the specific keyword you are looking for to see if it exists in the code. In this case, you can use `/index1`
 
 #### Second Step: Move the Cursor Until It is on number "1" 
 Once you have reached the right line of code to edit, use the key `L` on your keyboard to move your cursor to the right until it is exactly on 1 of the variable index1. <br />
-<img src="step7_2_2.png" width="680" height="340"/> <br />
+<img src="step7_2_2.png" width="400" height="100"/> <br />
 
 #### Third Step: Change "1" to Become "2"
 * Part 1: Type `i` so that you can be changed into Insertion Mode within the file and make modifications 
@@ -58,8 +58,8 @@ Once you have reached the right line of code to edit, use the key `L` on your ke
 * Part 5: Press `<escape>` to exit from Insertion Mode 
 
 After this step, you should have changed part of your code. 
-Before: <br /> <img src="step7_3_1.png" width="680" height="340"/>  <br />
-After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>  <br />
+Before: <br /> <img src="before.png" width="400" height="100"/>  <br />
+After:  <br /> <img src="after.png" width="400" height="100"/>  <br />
 
 ***Note: DO NOT do anything after this step and follow onto the next step.***
 ### Step 8: Run the Tests to Demonstrate That They Pass
@@ -69,8 +69,8 @@ After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>  <br />
 
 ### Step 9: Commit and Push Your Edited Contents to GitHub 
 1. Add the modified file/content into the repository. In the terminal, type in the command `$ git add ListExamples.java` and press `<enter>`
-2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `$ git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `$ git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="680" height="340"/>
-3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="680" height="340"/>
+2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `$ git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `$ git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="600" height="440"/>
+3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="600" height="440"/>
 
 ### Conclusion: 
 Great job following the instructions! We were able to: 
