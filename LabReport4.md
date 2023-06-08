@@ -7,4 +7,4 @@ You may or may not have already forked this file so let's start over for this as
 2. Click onto the repository that you are trying to work with and go to its 'settings` on the far right at the top <br /> <img src="step1_2.png" width="800" height="90"/>
 3. Scroll onto the bottom and choose the option to `delete this repository`.  <br /> <img src="step1_3.png" width="700" height="450"/>
 4. Open your terminal on the computer and log into your @ieng6 account. <br /> <img src="step1_4.png" width="500" height="280"/>
-5. In the terminal, remove the directory from your account by using the command `rm -r lab7/`. You can log out afterwards once you finished this step. <br /> <img src="step1_5.png" width="800" height="250"/> 
+5. In the terminal, remove the directory from your account by using the command `rm -r lab7/`. You can log out afterwards once you finished this step. <br /> <img src="Step1_5.png" width="800" height="250"/> 
