@@ -51,7 +51,7 @@ Once you have reached the right line of code to edit, use the key `L` on your ke
 
 #### Third Step: Change "1" to Become "2"
 * Part 1: Press on the key `i` on your keyboard so that you can be changed into Insertion Mode within the file and make modifications. At the bottom of your terminal, you should see "insert" like the picture below. <br />
-<img src="step7_3_1.png" width="300" height="120"/> <br />
+<img src="step7_3_1.png" width="340" height="120"/> <br />
 * Part 2: Press `<delete>` to remove "1" from variable "index1" 
 * Part 3: Press the number `2` on your keyboard to make it become "index2" 
 * Part 4: Press `<escape>` to exit from Insertion Mode 
