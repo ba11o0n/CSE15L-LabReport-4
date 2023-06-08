@@ -40,18 +40,18 @@ Explanation: The command will run the tests using JUnit for the ListExamples.jav
 1. In the terminal, use the command `$ vim ListExamples.java` and press `<enter>` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="750"/> 
 2. Follow the instructions to modify the code. 
 #### First Step: Move Your Cursor Until It Reaches the Correct Line 
-We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="400" height="70"/> <br />
+We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="400" height="40"/> <br />
 You can either 
 * Option 1: Press key `J` (helps you move the cursor downwards) until you reach the code line OR 
 * Option 2: Use the command `/<toFind>` where toFind is the specific keyword you are looking for to see if it exists in the code. In this case, you can use `/index1`
 
 #### Second Step: Move the Cursor Until It is One Space After Number "1" 
 Once you have reached the right line of code to edit, use the key `L` on your keyboard to move your cursor to the right until it is exactly one space after "1" of the variable index1. <br />
-<img src="step7_22.png" width="400" height="70"/> <br />
+<img src="step7_22.png" width="400" height="40"/> <br />
 
 #### Third Step: Change "1" to Become "2"
 * Part 1: Press on the key `i` on your keyboard so that you can be changed into Insertion Mode within the file and make modifications. At the bottom of your terminal, you should see "insert" like the picture below. <br />
-<img src="step7_3_1.png" width="400" height="150"/> <br />
+<img src="step7_3_1.png" width="250" height="100"/> <br />
 * Part 2: Press `<delete>` to remove "1" from variable "index1" 
 * Part 3: Press the number `2` on your keyboard to make it become "index2" 
 * Part 4: Press `<escape>` to exit from Insertion Mode 
