@@ -64,7 +64,7 @@ After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
 ### Step 8: Run the Tests to Demonstrate That They Pass
 1. After you have finished editing, make sure to save the modified file. Use the command `:wq` and press `<enter>` to save the edited file. <br /> <img src="step8_1.png" width="250" height="170"/>  
 2. Then press `<return>` and press `<enter>` to exit the file to bring the user back to the terminal command's line. 
-3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8_3.png" width="680" height="340"/>
+3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8_3.png" width="600" height="240"/>
 
 ### Step 9: Commit and Push Your Edited Contents to GitHub 
 1. Add the modified file/content into the repository. In the terminal, type in the command `$ git add ListExamples.java` and press `<enter>`
