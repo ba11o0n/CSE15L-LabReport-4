@@ -26,7 +26,7 @@ In the terminal, login into your account using `$ ssh cs15lsp23zz@ieng6.ucsd.edu
 
 ## Step 6: Run the Tests to Demonstrate That They Fail
 Run the test using the command `bash test.sh`
-The result in the terminal should be similar to the picture shown below, indicating there are test(s) that have failed. <br /> <img src="step6.png" width="600" height="340"/> <br />
+The result in the terminal should be similar to the picture shown below, indicating there are test(s) that have failed. <br /> <img src="step6.png" width="680" height="340"/> <br />
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
 ## Step 7: Fix the Code So Test Can Be Successful 
