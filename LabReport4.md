@@ -29,6 +29,25 @@ Run the test using the command `bash test.sh`
 The result in the terminal should be similar to the picture shown below, indicating there are test(s) that have failed. <br /> <img src="step6.png" width="680" height="340"/> <br />
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
-## Step 7: Fix the Code So Test Can Be Successful 
+## Step 7: Fix the Code So Test Can Run 
+1. In the terminal, use the command <>???? and press `enter` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="680" height="340"/> 
+2. Follow the instructions to modify the code. 
+### First Step: Move Your Cursor Until It Reaches the Correct Line 
+We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="680" height="340"/> <br />
+You can either 
+* Option 1: Press key `J` (helps you move the cursor downwards) until you reach the code line OR 
+* Option 2: Use the command `/<toFind>` where toFind is the specific keyword you are looking for to see if it exists in the code. In this case, you can use `/index1`
+
+### Second Step: Move the Cursor Until It is on number "1" 
+Once you have reached the right line of code to edit, use the key `L` on your keyboard to move your cursor to the right until it is exactly on 1 of the variable index1. <br />
+<img src="step7_2_2.png" width="680" height="340"/> <br />
+
+### Third Step: Change "1" to Become "2"
+* Part 1: Type `i` so that you can be changed into Insertion Mode within the file and make modifications 
+* Part 2: Press `<enter>` 
+* Part 2: Use `<backspace>` go towards the letter/character that needs to be changed 
+* Part 3: Press `<delete>` to remove "1" from variable "index1" 
+* Part 4: Press the number `2` on your keyboard to make it become "index2" 
+* Part 5: Press `<escape>` to 
 
 
