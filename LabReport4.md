@@ -14,7 +14,7 @@ You may or may not have already forked this file so let's start over for this as
 2. Click onto the repository that you are trying to work with and go to its 'settings` on the far right at the top <br /> <img src="step1_2.png" width="800" height="70"/>
 3. Scroll onto the bottom and choose the option to `delete this repository`.  <br /> <img src="step1_3.png" width="700" height="400"/>
 4. Open your terminal on the computer and log into your @ieng6 account. <br /> <img src="step1_4.png" width="500" height="200"/>
-5. In the terminal, remove the directory from your account by using the command `rm -r lab7/`. You can log out afterwards once you finished this step. <br /> <img src="Step1_5.png" width="800" height="90"/> 
+5. In the terminal, remove the directory from your account by using the command `rm -r lab7/`. You can log out afterwards once you finished this step. Notice that when you use `$ ls` afterwards, lab7 is no longer in the content. You should be able to see a similar result in your terminal like the picture below. <br /> <img src="Step1_5.png" width="800" height="90"/> 
 
 ## Step 2: Fork the Repository 
 Click on the [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's repository by going to the top right corner. <br /> <img src="step2.png" width="500" height="160"/>
