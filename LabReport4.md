@@ -75,9 +75,9 @@ After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
    * 2) Click on "Generate new token" tab and select either choice. If you are not sure, please read the [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) before selecting <br /> <img src="token_choose.png" width="600" height="440"/>
    * 3) You will then either have one of the two displays after choosing
      - Fine-grained, repo-scoped: 
-     <br /> <img src="grained.png" width="600" height="240"/>
+     <br /> <img src="grained.png" width="600" height="290"/>
      - General use (classic): 
-     <br /> <img src="classic.png" width="600" height="180"/>
+     <br /> <img src="classic.png" width="600" height="230"/>
    * 4) Fill out the required information to create your token and scroll down at the bottom of the page and click on `generate new token` 
    * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="440"/>
    * 6) Copy the special token and go back into the terminal to paste it into the prompted password for git push origin and you should be able to see the successful git push from the picture in the previous instruction of step 9.  
