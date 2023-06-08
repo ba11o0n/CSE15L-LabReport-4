@@ -28,11 +28,11 @@ In the terminal, login into your account using `$ ssh cs15lsp23zz@ieng6.ucsd.edu
 ## Step 5: Clone Your Repository That You Forked 
 1. In the terminal, git clone the repository that you have done in your GitHub account into the ieng6 account. You can simply go to the forked repository in GitHub on a new tab and copy the link from the browser to complete the following command in your terminal. `$ git clone <the link>` <br /> <img src="step5_1.png" width="600" height="130"/> 
 2. After you have cloned into the account, use `ls` to make sure it is successfully cloned. Lab7 should be displayed. <br /> <img src="step5_2.png" width="600" height="50"/> 
-3. Change your directory to go into lab7's file using `cd lab7/`
+3. Change your directory to go into lab7's file using `$ cd lab7/`
 4. After you change the directory, you can see the files inside lab7 and check what are the names of the files to pull up to edit later. Use ls to see the contents and your terminal should be similar to the picture shown below. <br /> <img src="step5_4.png" width="600" height="100"/>
 
 ## Step 6: Run the Tests to Demonstrate That They Fail
-Run the test using the command `bash test.sh`
+Run the test using the command `$ bash test.sh`
 The result in the terminal should be similar to the picture shown below, indicating there are test(s) that have failed. <br /> <img src="step6.png" width="680" height="300"/> <br />
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
@@ -59,7 +59,7 @@ Once you have reached the right line of code to edit, use the key `L` on your ke
 
 After this step, you should have changed part of your code. 
 Before: <br /> <img src="step7_3_1.png" width="680" height="340"/>  <br />
-After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>
+After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>  <br />
 
 ***Note: DO NOT do anything after this step and follow onto the next step.***
 ### Step 8: Run the Tests to Demonstrate That They Pass
@@ -68,9 +68,9 @@ After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>
 3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8.png" width="680" height="340"/>
 
 ### Step 9: Commit and Push Your Edited Contents to GitHub 
-1. Add the modified file/content into the repository. In the terminal, type in the command `git add ListExamples.java` and press `<enter>`
-2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="680" height="340"/>
-3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="680" height="340"/>
+1. Add the modified file/content into the repository. In the terminal, type in the command `$ git add ListExamples.java` and press `<enter>`
+2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `$ git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `$ git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="680" height="340"/>
+3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="680" height="340"/>
 
 ### Conclusion: 
 Great job following the instructions! We were able to: 
@@ -79,3 +79,5 @@ Great job following the instructions! We were able to:
 - [x] Debug the code to have tests run successfully 
 - [x] Commit and push the resulting change to your GitHub account 
 Now you can try editing other programming assignments that you have forked from GitHub wth these steps that you have learned! 
+
+***NOTICE:*** You may or may not have completed all these steps due to complications in typing in certain commands. Note that the `$` in the code block is to indicate the starting point of where you should start typing in the command, so DO NOT include `$` in your commands. Check for typos for possible extra <space> or incorrectly spelled commands. Otherwise, you can copy and paste the commands from these instructions for the appropriate steps and fix certain parts accordingly such as the ssh command to your ieng6 account to match your id or certain messages that you want to search or commit. 
