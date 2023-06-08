@@ -23,3 +23,12 @@ In the terminal, login into your account using `$ ssh cs15lsp23zz@ieng6.ucsd.edu
 2. After you have cloned into the account, use `ls` to make sure it is successfully cloned. Lab7 should be displayed. <br /> <img src="step5_2.png" width="600" height="50"/> 
 3. Change your directory to go into lab7's file using `cd lab7/`
 4. After you change the directory, you can see the files inside lab7 and check what are the names of the files to pull up to edit later. Use ls to see the contents and your terminal should be similar to the picture shown below. <br /> <img src="step5_4.png" width="600" height="100"/>
+
+## Step 6: Run the Tests to Demonstrate That They Fail
+Run the test using the command `bash test.sh`
+The result in the terminal should be similar to the picture shown below, indicating there are test(s) that have failed. <br /> <img src="step6.png" width="600" height="340"/> <br />
+Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
+
+## Step 7: Fix the Code So Test Can Be Successful 
+
+
