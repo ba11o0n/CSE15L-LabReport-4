@@ -13,7 +13,7 @@ You may or may not have already forked this file so let's start over for this as
 1. Log into your GitHub account and on the top right corner, click on your profile and click on `your repositories` <br /> <img src="step1_1.png" width="250" height="220"/>
 2. Click onto the repository that you are trying to work with and go to its 'settings` on the far right at the top <br /> <img src="step1_2.png" width="800" height="70"/>
 3. Scroll onto the bottom and choose the option to `delete this repository`.  <br /> <img src="step1_3.png" width="700" height="400"/>
-4. Open your terminal on the computer and log into your @ieng6 account. <br /> <img src="step1_4.png" width="500" height="200"/>
+4. Open your terminal on the computer and log into your @ieng6 account. Note: My login did not prompt for password input as I already had set up the SSH Key to my account. If you have not set up the SSH key, then your terminal should still ask if "you want to continue connecting" and be prompted for a password input. <br /> <img src="step1_4.png" width="500" height="200"/>
 5. In the terminal, remove the directory from your account by using the command `rm -r lab7/`. You can log out afterwards once you finished this step. Notice that when you use `$ ls` afterwards, lab7 is no longer in the content. You should be able to see a similar result in your terminal like the picture below. <br /> <img src="Step1_5.png" width="800" height="90"/> 
 
 ## Step 2: Fork the Repository 
@@ -23,7 +23,7 @@ Click on the [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's rep
 Set a timer before you start doing the tasks of logging into your specific account, cloning the repository, and editing the file. 
 
 ## Step 4: Log Into Your Account Using ieng6
-In the terminal, login into your account using `$ ssh cs15lsp23zz@ieng6.ucsd.edu`. This step is similar part 5 of step 4. Refer to the picture from that step if needed to clarify the result display. My login did not prompt for password input as I already had set up the SSH Key to my account. 
+In the terminal, login into your account using `$ ssh cs15lsp23zz@ieng6.ucsd.edu`. This step is similar part 5 of step 4. Refer to the picture from that step if needed to clarify the result display. 
 
 ## Step 5: Clone Your Repository That You Forked 
 1. In the terminal, git clone the repository that you have done in your GitHub account into the ieng6 account. You can simply go to the forked repository in GitHub on a new tab and copy the link from the browser to complete the following command in your terminal. `$ git clone <the link>` <br /> <img src="step5_1.png" width="600" height="130"/> 
