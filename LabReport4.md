@@ -37,7 +37,7 @@ The result in the terminal should be similar to the picture shown below, indicat
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
 ## Step 7: Fix the Code So Test Can Run 
-1. In the terminal, use the command `$ vim ListExamples.java` and press `<enter>` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="750"/> 
+1. In the terminal, use the command `$ vim ListExamples.java` and press `<enter>` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="780"/> 
 2. Follow the instructions to modify the code. 
 #### First Step: Move Your Cursor Until It Reaches the Correct Line 
 We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="400" height="55"/> <br />
