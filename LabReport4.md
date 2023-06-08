@@ -72,14 +72,14 @@ After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
 3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="push_success.png" width="700" height="260"/>
 4. ***SKIP THIS STEP IF YOU SUCCEEDED PREVIOUS PART OF STEP 9***: For those who have failed to push their files from the previous step, let's resolve the problem. Did the terminal ask you for your GitHub account's username and then prompted for your password? Did you try putting your GitHub account's password once or maybe many times and it results in "authentification failed..."? The reason is because if you have enabled two factor authentification associated with the account you signed up for, this also means you need a second factor for when you try to acess GitHub. In order for you to do this, you need to create a personal access token, one where you can use as a password for you to have access to your work. Follow the steps below: 
    * 1) Click on this [link](https://github.com/settings/tokens). You will see this webpage. <br /> <img src="go_intoken.png" width="600" height="120"/>
-   * 2) Click on "Generate new token" tab and select either choice. If you are not sure, please read the [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) before selecting <br /> <img src="token_choose.png" width="400" height="200"/>
+   * 2) Click on "Generate new token" tab and select either choice. If you are not sure, please read the [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) before selecting <br /> <img src="token_choose.png" width="350" height="170"/>
    * 3) You will then either have one of the two displays after choosing
      - Fine-grained, repo-scoped: 
      <br /> <img src="grained.png" width="600" height="290"/>
      - General use (classic): 
      <br /> <img src="classic.png" width="600" height="230"/>
    * 4) Fill out the required information to create your token and scroll down at the bottom of the page and click on `generate new token` 
-   * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="290"/>
+   * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="250"/>
    * 6) Copy the special token and go back into the terminal to paste it into the prompted password for git push origin and you should be able to see the successful git push from the picture in the previous instruction of step 9.  
 
 ### Conclusion: 
