@@ -57,9 +57,9 @@ Once you have reached the right line of code to edit, use the key `L` on your ke
 * Part 4: Press the number `2` on your keyboard to make it become "index2" 
 * Part 5: Press `<escape>` to exit from Insertion Mode 
 
-After this step, you should have changed part of your code. 
-Before: <br /> <img src="before.png" width="400" height="100"/>  <br />
-After:  <br /> <img src="after.png" width="400" height="100"/>  <br />
+After this step, you should have changed part of your code. <br />
+Before: <br /> <img src="before.png" width="400" height="60"/>  <br />
+After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
 
 ***Note: DO NOT do anything after this step and follow onto the next step.***
 ### Step 8: Run the Tests to Demonstrate That They Pass
