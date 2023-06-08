@@ -37,7 +37,7 @@ The result in the terminal should be similar to the picture shown below, indicat
 Explanation: The command will run the tests using JUnit for the ListExamples.java file. Run indicates how many the tests passed and failures indicates the amount of tests have failed. Read the description of the output to see possible errors. 
 
 ## Step 7: Fix the Code So Test Can Run 
-1. In the terminal, use the command <>???? and press `enter` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="460"/> 
+1. In the terminal, use the command `$ vim ListExamples.java` and press `<enter>` so the contents of the file will be opened. Your terminal should display like similar to the picture below. <br /> <img src="step7_1.png" width="600" height="460"/> 
 2. Follow the instructions to modify the code. 
 #### First Step: Move Your Cursor Until It Reaches the Correct Line 
 We need to modify the code where it is commented to "change index1 below to index2 to fix test". <br /> <img src="step7_2_1.png" width="400" height="70"/> <br />
@@ -45,17 +45,16 @@ You can either
 * Option 1: Press key `J` (helps you move the cursor downwards) until you reach the code line OR 
 * Option 2: Use the command `/<toFind>` where toFind is the specific keyword you are looking for to see if it exists in the code. In this case, you can use `/index1`
 
-#### Second Step: Move the Cursor Until It is on number "1" 
-Once you have reached the right line of code to edit, use the key `L` on your keyboard to move your cursor to the right until it is exactly on 1 of the variable index1. <br />
-<img src="step7_2_2.png" width="400" height="70"/> <br />
+#### Second Step: Move the Cursor Until It is One Space After Number "1" 
+Once you have reached the right line of code to edit, use the key `L` on your keyboard to move your cursor to the right until it is exactly one space after "1" of the variable index1. <br />
+<img src="step7_22.png" width="400" height="70"/> <br />
 
 #### Third Step: Change "1" to Become "2"
-* Part 1: Type `i` so that you can be changed into Insertion Mode within the file and make modifications 
-* Part 2: Press `<enter>` 
-* Part 2: Use `<backspace>` go towards the letter/character that needs to be changed 
-* Part 3: Press `<delete>` to remove "1" from variable "index1" 
-* Part 4: Press the number `2` on your keyboard to make it become "index2" 
-* Part 5: Press `<escape>` to exit from Insertion Mode 
+* Part 1: Press on the key `i` on your keyboard so that you can be changed into Insertion Mode within the file and make modifications. At the bottom of your terminal, you should see "insert" like the picture below. <br />
+<img src="step7_3_1.png" width="400" height="150"/> <br />
+* Part 2: Press `<delete>` to remove "1" from variable "index1" 
+* Part 3: Press the number `2` on your keyboard to make it become "index2" 
+* Part 4: Press `<escape>` to exit from Insertion Mode 
 
 After this step, you should have changed part of your code. <br />
 Before: <br /> <img src="before.png" width="400" height="60"/>  <br />
@@ -63,14 +62,23 @@ After:  <br /> <img src="after.png" width="400" height="60"/>  <br />
 
 ***Note: DO NOT do anything after this step and follow onto the next step.***
 ### Step 8: Run the Tests to Demonstrate That They Pass
-1. After you have finished editing, make sure to save the modified file. Use the command `:wq` and press `<enter>` to save the edited file. 
+1. After you have finished editing, make sure to save the modified file. Use the command `:wq` and press `<enter>` to save the edited file. <br /> <img src="steo8_1.png" width="300" height="200"/>  
 2. Then press `<return>` and press `<enter>` to exit the file to bring the user back to the terminal command's line. 
-3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8.png" width="680" height="340"/>
+3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8_3.png" width="680" height="340"/>
 
 ### Step 9: Commit and Push Your Edited Contents to GitHub 
 1. Add the modified file/content into the repository. In the terminal, type in the command `$ git add ListExamples.java` and press `<enter>`
 2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `$ git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `$ git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="600" height="440"/>
-3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="600" height="440"/>
+3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `$ git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="push_success.png" width="600" height="440"/>
+4. ***SKIP THIS STEP IF YOU SUCCEEDED STEP 3***: For those who have failed to push their files from the previous step, let's resolve the problem. Did the terminal ask you for your GitHub account's username and then prompted for your password? Did you try putting your GitHub account's password once or maybe many times and it results in "authentification failed..."? The reason is because if you have enabled two factor authentification associated with the account you signed up for, this also means you need a second factor for when you try to acess GitHub. In order for you to do this, you need to create a personal access token, one where you can use as a password for you to have access to your work. Follow the steps below: 
+   * 1) Click on this [link](https://github.com/settings/tokens). You will see this webpage. <br /> <img src="go_intoken.png" width="600" height="440"/>
+   * 2) Click on "Generate new token" tab and select either choice. If you are not sure, please read the [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) before selecting <br /> <img src="token_choose.png" width="600" height="440"/>
+   * 3) You will then either have one of the two displays after choosing
+    * Fine-grained, repo-scoped: <br /> <img src="first_choice.png" width="600" height="440"/>
+    * General use (classic): <br /> <img src="second_choice.png" width="600" height="440"/>
+   * 4) Fill out the required information to create your token and scroll down at the bottom of the page and click on `generate new token` 
+   * 5) Your webpage will then display something similar below with your access token key. ***NOTE:*** Make sure you save this key somewhere if you will encounter login authentifications with GitHub within the time frame the key is not expired yet as it will disappear after you exit the browser. <br /> <img src="token_created.png" width="600" height="440"/>
+   * 6) Copy the special token and go back into the terminal to paste it into the prompted password for git push origin and you should be able to see the successful git push from the picture in the previous instruction of step 9.  
 
 ### Conclusion: 
 Great job following the instructions! We were able to: 
