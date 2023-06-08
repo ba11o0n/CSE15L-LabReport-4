@@ -1,6 +1,13 @@
 # Lab Report 5: VIM Command Line Task 
 This lab report will provide a chronological step-by-step procedure on how to fork and clone a repository and utilize VIM to help edit/modify/save the file. 
 
+**Objectives:**
+- [] Clone your fork of the repository from your Github account  
+- [] Open and edit the file directly in the terminal  
+- [] Debug the code to have tests run successfully 
+- [] Commit and push the resulting change to your GitHub account 
+
+
 ## Step 1: SetUp: Delete Existing Repository 
 You may or may not have already forked this file so let's start over for this assignment by deleting. 
 1. Log into your GitHub account and on the top right corner, click on your profile and click on `your repositories` <br /> <img src="step1_1.png" width="250" height="280"/>
@@ -48,6 +55,26 @@ Once you have reached the right line of code to edit, use the key `L` on your ke
 * Part 2: Use `<backspace>` go towards the letter/character that needs to be changed 
 * Part 3: Press `<delete>` to remove "1" from variable "index1" 
 * Part 4: Press the number `2` on your keyboard to make it become "index2" 
-* Part 5: Press `<escape>` to 
+* Part 5: Press `<escape>` to exit from Insertion Mode 
 
+After this step, you should have changed part of your code. 
+Before: <br /> <img src="step7_3_1.png" width="680" height="340"/>  <br />
+After:  <br /> <img src="step7_3_2.png" width="680" height="340"/>
 
+***Note: DO NOT do anything after this step and follow onto the next step.***
+### Step 8: Run the Tests to Demonstrate That They Pass
+1. After you have finished editing, make sure to save the modified file. Use the command `:wq` and press `<enter>` to save the edited file. 
+2. Then press `<return>` and press `<enter>` to exit the file to bring the user back to the terminal command's line. 
+3. Once you reach this step, you have already fixed the error. Let's run the tests now to see if they all will pass or fail. Just like how you ran the tests previously from step 6, type the command `bash test.sh` once more in the terminal. Your terminal should display the result similar to the picture being shown below. <br /> <img src="step8.png" width="680" height="340"/>
+
+### Step 9: Commit and Push Your Edited Contents to GitHub 
+1. Add the modified file/content into the repository. In the terminal, type in the command `git add ListExamples.java` and press `<enter>`
+2. Then, commit the modified file with a newly updated message. In the terminal, type in the command `git commit -m "<yourChosenMessage"`. Within the quotation marks, you have the choice of writing any commit message of your choice as it is your own work so put something to let yourself know the file has been changed. An example in the correct format with the message "index1 was updated" is: `git commit -m "index1 was updated"`. Press `<enter>` after to see the following result similar to your terminal's display. <br /> <img src="step9_2.png" width="680" height="340"/>
+3. Lastly, we want to push our modified contents into the forked repository. In the terminal, type in `git push origin` and press `<enter>`. You should see a similar result in your terminal like the picture shown below. <br /> <img src="step9_3.png" width="680" height="340"/>
+
+### Conclusion: 
+Great job following the instructions! We were able to: 
+- [x] Clone your fork of the repository from your Github account  
+- [x] Open and edit the file directly in the terminal  
+- [x] Debug the code to have tests run successfully 
+- [x] Commit and push the resulting change to your GitHub account 
